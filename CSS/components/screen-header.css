@@ -1,0 +1,45 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 26px;
+  background-color: white;
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.screen-header__icons > span {
+  margin-left: 25px;
+}
+
+.screen-header__icons div {
+  margin-left: 25px;
+}
+
+.screen-header__icons {
+  display: flex;
+  align-items: center;
+}
+
+.screen-header__icons-setting {
+  position: relative;
+}
+
+.screen-header__dot {
+  position: absolute;
+  top: -12px;
+  left: 20px;
+}
+/*  
+position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 26px;
+  */

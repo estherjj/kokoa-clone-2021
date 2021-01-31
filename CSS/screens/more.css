@@ -1,0 +1,39 @@
+.more-suggestions {
+  padding-top: 18px;
+  border-top: var(--main-border);
+  font-weight: 600;
+}
+
+.more-suggestions h4 {
+  padding-bottom: 18px;
+}
+
+.more-suggestions__icon {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.more-suggestions__icon-box {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-suggestions__icon-bg {
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.more-suggestions__icon-text {
+  color: gray;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.more-suggestions__icon .skip {
+  color: white;
+}

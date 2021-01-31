@@ -1,0 +1,34 @@
+.alt-header {
+  position: fixed;
+  top: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: var(--horizontal-space);
+  box-sizing: border-box;
+}
+
+.alt-header__title {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.alt-header__column {
+  width: 33%;
+}
+
+.alt-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.alt-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-header__column .fa-search {
+  padding-right: 20px;
+}
